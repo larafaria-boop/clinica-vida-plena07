@@ -6,12 +6,17 @@
 }
 
 /* ===== SELETOR DE TAG ===== */
+
+/* ===== BASE ===== */
+
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #263238;
     background-color: #dfeaff;
     line-height: 1.6;
 }
+
+/* ===== TÍTULOS ===== */
 
 h1 {
     font-size: 32px;
@@ -48,6 +53,9 @@ header h1 {
     text-transform: uppercase;
 }
 
+/* ===== MENU ===== */
+
+
 nav ul {
     list-style: none;
     display: flex;
@@ -68,11 +76,20 @@ nav a {
     letter-spacing: 2px;
 }
 
+nav a:hover {
+    color: #4c3fff;
+}
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+
 main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 50px 60px
 }
+
+/* ===== CABEÇALHO E RODAPÉ ===== */
+
 
 footer {
     background-color: #000080;
@@ -85,8 +102,8 @@ footer {
 .card {
     background-color: #dfeaff;
     border: 1px solid;
-    border-radius: 8px;
-    padding: 16px;
+    border-radius: 30px;
+    padding: 50px;
     margin-bottom: 16px;
     text-align: center;
 }
@@ -118,6 +135,26 @@ footer {
     background-color: #dfeaff;
     color: #6f475b;
     border-left: 4px solid #6f475a;
+}
+
+/* ===== SEÇÕES ===== */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+
+/* ===== BOTÃO ===== */
+
+button {
+    background-color: #0000b0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 /* ===== SELETOR DE ID ===== */
@@ -153,8 +190,22 @@ footer {
     background-image: url("imagem\ clinico\ geraljpg.jpg");
 }
 
-#foto-dermatologista {
+#foto-dermatologia {
     background-image: url("imagem\ demartologia.jpg");
 }
 
+/* ===== SELETOR COMPARTILHADO ===== */
+h1, h2, h3 
+    color
+    button,
+
+input[type="submit"] {
+    background-color: #0000b0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
