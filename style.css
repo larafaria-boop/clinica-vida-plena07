@@ -80,3 +80,81 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* ===== SELETOR DE CLASSE ===== */
+.card {
+    background-color: #dfeaff;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.foto {
+    background-color: #dfeaff;
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.pacote {
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.pacote-essencial {
+    background-color: #dfeaff;
+    border-left: 4px solid #fc2078;
+
+}
+
+.pacote-premium {
+    background-color: #dfeaff;
+    color: #6f475b;
+    border-left: 4px solid #6f475a;
+}
+
+/* ===== SELETOR DE ID ===== */
+#sobre {
+    padding: 24px 0;
+}
+
+#portfólio {
+    padding: 24px;
+}
+
+#pacotes {
+    background-color: #dfeaff;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+#horario {
+    background-color: #dfeaff;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+#foto-cardiologia {
+    background-image: url("imagem\ cardiologia.jpg");
+}
+
+#foto-pediatria {
+    background-image: url("imagem\ pediatria.jpg");
+}
+#foto-clinico-geral {
+    background-image: url("imagem\ clinico\ geraljpg.jpg");
+}
+
+#foto-dermatologista {
+    background-image: url("imagem\ demartologia.jpg");
+}
+
+
